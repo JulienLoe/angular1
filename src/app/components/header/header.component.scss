@@ -1,0 +1,47 @@
+:host {
+  width: 100vw;
+  height: 20vh;
+  background-color: #000;
+  letter-spacing: 2px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 700;
+
+
+  h1 {
+    color: #fb0202;
+    font-size: 48px;   
+    position: absolute;
+    top: 30px;
+    left: 60px;
+  }
+  button {
+    border-radius: 10px;
+    background: #ff0101;
+    position: absolute;
+    top: 70px;
+    right: 70px;
+    width: 120px;
+    height: 38px; 
+    font-size: 20px;   
+    font-weight: 500;    
+    color: #fff;
+    letter-spacing: 2px;
+    transition: 0.8s;
+  }
+
+  button:hover {
+    border-radius: 15px;
+    background: #fff;
+    position: absolute;
+    top: 70px;
+    right: 70px;
+    width: 120px;
+    height: 38px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #ff0101;
+    letter-spacing: 2px;
+    cursor: pointer;
+  }
+}
